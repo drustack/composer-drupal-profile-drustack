@@ -7,6 +7,12 @@
         }
     ],
     "description": "DruStack is a starter Drupal distribution for developer.",
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "9.x-dev",
+            "dev-master": "9.1.x-dev"
+        }
+    },
     "homepage": "https://drupal.org/project/drustack",
     "license": "GPL-2.0-or-later",
     "name": "drustack/drustack",
