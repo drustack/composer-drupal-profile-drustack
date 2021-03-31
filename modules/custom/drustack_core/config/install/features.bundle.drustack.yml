@@ -15,7 +15,6 @@ assignments:
     types:
       config:
         node_type: node_type
-        block_content_type: block_content_type
       content:
         user: user
     enabled: true

@@ -1,0 +1,10 @@
+name: 'DruStack WYSIWYG'
+description: 'DruStack WYSIWYG management'
+type: module
+core_version_requirement: '^8.9 || ^9'
+package: DruStack
+dependencies:
+  - 'drupal:ckeditor'
+  - 'drupal:editor'
+  - 'drupal:filter'
+  - 'php:php'

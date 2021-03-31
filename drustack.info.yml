@@ -1,7 +1,7 @@
 name: DruStack
 description: 'DruStack is a starter Drupal distribution for developer.'
 type: profile
-core_version_requirement: ^9.1
+core_version_requirement: '^8.9 || ^9'
 package: DruStack
 distribution:
   name: DruStack
@@ -51,7 +51,6 @@ install:
   - language
   - layout_builder
   - layout_builder_restrictions
-  - layout_builder_st
   - layout_discovery
   - libraries
   - link
