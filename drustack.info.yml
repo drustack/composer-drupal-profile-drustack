@@ -1,12 +1,10 @@
+name: DruStack
+description: 'DruStack is a starter Drupal distribution for developer.'
 type: profile
 core_version_requirement: ^9.1
-
-name: DruStack
 package: DruStack
 distribution:
   name: DruStack
-description: 'DruStack is a starter Drupal distribution for developer.'
-
 install:
   - action
   - admin_toolbar

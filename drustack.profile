@@ -18,21 +18,17 @@ use Drupal\user\UserInterface;
  */
 function drustack_install_tasks($install_state) {
   $modules = [
-#    'drustack_core',
-#    'drustack_devel',
+    'drustack_core',
+    'drustack_devel',
 #    'drustack_wysiwyg',
 #    'drustack_layout',
-#    'drustack_article',
-#    'drustack_page',
+    'drustack_article',
+    'drustack_page',
 #    'drustack_blog',
 #    'drustack_paragraphs',
 #    'drustack_webform',
 #    'drustack_seo',
 #    'drustack_performance',
-
-    'drustack_core',
-    'drustack_article',
-    'drustack_page',
   ];
   \Drupal::state()->set('drustack_features_exports', $modules);
 
