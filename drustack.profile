@@ -6,6 +6,7 @@
  */
 
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Messenger\MessengerInterface;
 use Drupal\features\ConfigurationItem;
 use Drupal\features\FeaturesManagerInterface;
 use Drupal\user\Entity\Role;
@@ -16,30 +17,30 @@ use Drupal\user\UserInterface;
  * Implements hook_install_tasks().
  */
 function drustack_install_tasks($install_state) {
-#  $modules = [
-#    'drustack_core',
-#    'drustack_devel',
-#    'drustack_wysiwyg',
+  $modules = [
+    'drustack_core',
+    'drustack_devel',
+    'drustack_wysiwyg',
 #    'drustack_layout',
-#    'drustack_article',
-#    'drustack_page',
+    'drustack_article',
+    'drustack_page',
 #    'drustack_blog',
 #    'drustack_paragraphs',
 #    'drustack_webform',
 #    'drustack_seo',
 #    'drustack_performance',
-#  ];
-#  \Drupal::state()->set('drustack_features_exports', $modules);
+  ];
+  \Drupal::state()->set('drustack_features_exports', $modules);
 
   return [
-#    '_drustack_features_install' => [
-#      'display_name' => t('Install features'),
-#      'type' => 'batch',
-#    ],
-#    '_drustack_features_import_all' => [
-#      'display_name' => t('Import features'),
-#      'type' => 'batch',
-#    ],
+    '_drustack_features_install' => [
+      'display_name' => t('Install features'),
+      'type' => 'batch',
+    ],
+    '_drustack_features_import_all' => [
+      'display_name' => t('Import features'),
+      'type' => 'batch',
+    ],
     '_drustack_configure_cleanup' => [],
   ];
 }
@@ -51,7 +52,8 @@ function drustack_install_tasks($install_state) {
  */
 function drustack_form_install_configure_form_alter(&$form, FormStateInterface $form_state) {
   // Clear drupal message queue for non-errors.
-  \Drupal::messenger()->addStatus(TRUE);
+  \Drupal::service('messenger')->deleteByType(MessengerInterface::TYPE_STATUS);
+  \Drupal::service('messenger')->deleteByType(MessengerInterface::TYPE_WARNING);
 
   // Site information form.
   $form['site_information']['#weight'] = -20;
@@ -289,6 +291,6 @@ function _drustack_configure_cleanup() {
   \Drupal::service('asset.js.collection_optimizer')->deleteAll();
 
   // Clear drupal message queue for non-errors.
-  \Drupal::messenger()->addStatus(TRUE);
-  \Drupal::messenger()->addWarning(TRUE);
+  \Drupal::service('messenger')->deleteByType(MessengerInterface::TYPE_STATUS);
+  \Drupal::service('messenger')->deleteByType(MessengerInterface::TYPE_WARNING);
 }

@@ -1,0 +1,14 @@
+name: 'DruStack Basic page'
+description: 'Provides Basic page content type and related configuration. Use <em>basic pages</em> for your static content, such as an ''About us'' page.'
+type: module
+core_version_requirement: '^8.9 || ^9'
+package: DruStack
+dependencies:
+  - 'drupal:field'
+  - 'drupal:node'
+  - 'drupal:path'
+  - 'drupal:rdf'
+  - 'drupal:text'
+  - 'drupal:user'
+  - 'drustack_core:drustack_core'
+  - 'scheduler:scheduler'
