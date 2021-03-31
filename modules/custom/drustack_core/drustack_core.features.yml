@@ -1,0 +1,3 @@
+bundle: drustack
+required:
+  - features.bundle.drustack

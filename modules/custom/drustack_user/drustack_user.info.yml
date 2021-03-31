@@ -1,0 +1,11 @@
+name: User
+description: 'Provide User related configuration.'
+type: module
+core_version_requirement: '^8.9 || ^9'
+dependencies:
+  - 'drupal:field'
+  - 'drupal:file'
+  - 'drupal:image'
+  - 'drupal:path'
+  - 'drupal:user'
+package: DruStack

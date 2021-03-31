@@ -1,0 +1,25 @@
+name: Core
+description: 'Provides core components required by other features.'
+type: module
+core_version_requirement: '^8.9 || ^9'
+dependencies:
+  - 'drupal:aggregator'
+  - 'drupal:block'
+  - 'drupal:block_content'
+  - 'drupal:contact'
+  - 'drupal:content_moderation'
+  - 'drupal:field'
+  - 'drupal:file'
+  - 'drupal:image'
+  - 'drupal:media'
+  - 'drupal:menu_link_content'
+  - 'drupal:node'
+  - 'drupal:path'
+  - 'drupal:path_alias'
+  - 'drupal:responsive_image'
+  - 'drupal:shortcut'
+  - 'drupal:taxonomy'
+  - 'drupal:tour'
+  - 'drupal:user'
+  - 'features:features'
+package: DruStack
