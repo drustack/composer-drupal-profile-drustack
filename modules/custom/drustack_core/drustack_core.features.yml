@@ -1,3 +1,4 @@
 bundle: drustack
 required:
   - features.bundle.drustack
+  - features.settings

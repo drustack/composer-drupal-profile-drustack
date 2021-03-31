@@ -13,6 +13,5 @@ dependencies:
   - 'drupal:taxonomy'
   - 'drupal:text'
   - 'drupal:user'
-  - 'drustack_comment:drustack_comment'
   - 'scheduler:scheduler'
 package: DruStack

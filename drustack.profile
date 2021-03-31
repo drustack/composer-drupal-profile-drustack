@@ -32,10 +32,7 @@ function drustack_install_tasks($install_state) {
 
     'drustack_core',
     'drustack_article',
-    'drustack_comment',
     'drustack_page',
-    'drustack_site',
-    'drustack_user',
   ];
   \Drupal::state()->set('drustack_features_exports', $modules);
 
