@@ -22,6 +22,7 @@ assignments:
   core:
     types:
       config:
+        base_field_override: base_field_override
         date_format: date_format
         features_bundle: features_bundle
         field_storage_config: field_storage_config
