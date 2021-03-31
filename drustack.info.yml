@@ -8,41 +8,94 @@ distribution:
 description: 'DruStack is a starter Drupal distribution for developer.'
 
 install:
-  - node
-  - history
+  - action
+  - admin_toolbar
+  - admin_toolbar_tools
+  - aggregator
+  - automated_cron
+  - ban
+  - basic_auth
+  - big_pipe
   - block
+  - block_class
+  - block_content
+  - block_content_permissions
   - breakpoint
   - ckeditor
+  - coffee
   - color
-  - config
   - comment
-  - contextual
+  - config
+  - config_translation
+  - config_update
   - contact
-  - menu_link_content
+  - content_moderation
+  - content_translation
+  - contextual
   - datetime
-  - block_content
-  - quickedit
-  - editor
-  - help
-  - image
-  - menu_ui
-  - options
-  - path
-  - page_cache
-  - dynamic_page_cache
-  - big_pipe
-  - taxonomy
+  - datetime_range
   - dblog
-  - search
-  - shortcut
-  - toolbar
+  - devel
+  - dynamic_page_cache
+  - editor
+  - features
+  - features_ui
+  - field
   - field_ui
   - file
+  - filter
+  - hal
+  - help
+  - history
+  - image
+  - inline_form_errors
+  - jsonapi
+  - language
+  - layout_builder
+  - layout_builder_restrictions
+  - layout_builder_st
+  - layout_discovery
+  - libraries
+  - link
+  - link_attributes
+  - locale
+  - media
+  - media_library
+  - menu_block
+  - menu_link_content
+  - menu_ui
+  - module_filter
+  - node
+  - options
+  - page_cache
+  - path
+  - pathauto
+  - php
+  - quickedit
   - rdf
+  - responsive_image
+  - rest
+  - scheduler
+  - search
+  - serialization
+  - settings_tray
+  - shortcut
+  - statistics
+  - syslog
+  - system
+  - system_stream_wrapper
+  - taxonomy
+  - telephone
+  - text
+  - toolbar
+  - tour
+  - tracker
+  - twig_tweak
+  - update
+  - user
   - views
   - views_ui
-  - tour
-  - automated_cron
+  - workflows
 themes:
   - bartik
   - seven
