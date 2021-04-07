@@ -49,6 +49,7 @@ dependencies:
   - 'drupal:user'
   - 'drupal:views'
   - 'drupal:views_ui'
+  - 'drupal:workflows'
   - 'embed:embed'
   - 'features:features'
   - 'file_mdm:file_mdm'
