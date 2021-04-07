@@ -5,9 +5,11 @@ core_version_requirement: '^8.9 || ^9'
 package: DruStack
 dependencies:
   - 'drupal:comment'
+  - 'drupal:content_translation'
   - 'drupal:field'
   - 'drupal:file'
   - 'drupal:image'
+  - 'drupal:language'
   - 'drupal:node'
   - 'drupal:path'
   - 'drupal:rdf'

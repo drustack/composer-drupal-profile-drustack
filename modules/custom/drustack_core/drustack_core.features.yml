@@ -128,3 +128,12 @@ required:
   - language.entity.en
   - workflows.workflow.editorial
   - language.content_settings.path_alias.path_alias
+  - language.content_settings.aggregator_feed.aggregator_feed
+  - language.content_settings.aggregator_item.aggregator_item
+  - language.content_settings.contact_message.personal
+  - language.content_settings.file.file
+  - language.content_settings.menu_link_content.menu_link_content
+  - language.content_settings.user.user
+  - language.content_settings.content_moderation_state.content_moderation_state
+  - language.content_settings.shortcut.default
+  - core.entity_form_display.user.user.register

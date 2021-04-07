@@ -1,4 +1,4 @@
 metadata_cache:
   enabled: true
-  expiration: 172800
+  expiration: 86400
   disallowed_paths: {  }
