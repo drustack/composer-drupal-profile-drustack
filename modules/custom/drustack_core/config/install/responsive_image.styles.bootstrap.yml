@@ -7,24 +7,29 @@ dependencies:
     - image.style.medium
     - image.style.small
   theme:
-    - bartik
+    - bootstrap_barrio
 id: bootstrap
 label: Bootstrap
 image_style_mappings:
   -
-    breakpoint_id: bartik.wide
+    breakpoint_id: bootstrap_barrio.extra
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: extra
   -
-    breakpoint_id: bartik.narrow
+    breakpoint_id: bootstrap_barrio.large
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: large
   -
-    breakpoint_id: bartik.mobile
+    breakpoint_id: bootstrap_barrio.medium
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: medium
-breakpoint_group: bartik
+  -
+    breakpoint_id: bootstrap_barrio.small
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: small
+breakpoint_group: bootstrap_barrio
 fallback_image_style: small

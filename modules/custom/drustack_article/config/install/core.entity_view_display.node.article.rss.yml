@@ -16,7 +16,7 @@ bundle: article
 mode: rss
 content:
   links:
-    weight: 100
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }

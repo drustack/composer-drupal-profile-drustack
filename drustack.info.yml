@@ -94,5 +94,6 @@ install:
   - views_ui
   - workflows
 themes:
+  - bootstrap_barrio
   - bartik
   - seven
