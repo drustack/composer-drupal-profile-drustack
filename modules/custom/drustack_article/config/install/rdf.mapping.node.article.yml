@@ -46,3 +46,6 @@ fieldMappings:
   field_tags:
     properties:
       - 'schema:about'
+  field_attachment:
+    properties:
+      - 'schema:associatedMedia'

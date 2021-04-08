@@ -3,7 +3,7 @@ status: true
 dependencies:
   module:
     - taxonomy
-id: taxonomy
+id: taxonomy_term
 label: 'Taxonomy term'
 type: 'canonical_entities:taxonomy_term'
 pattern: '[term:source:parent:url:path]/[term:source:name]'

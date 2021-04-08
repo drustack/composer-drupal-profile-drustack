@@ -58,12 +58,11 @@ required:
   - image_effects.settings
   - sophron.settings
   - bartik.settings
+  - bootstrap_barrio.settings
   - field.storage.block_content.body
   - field.storage.comment.comment_body
   - field.storage.node.body
   - field.storage.node.field_attachment
-  - field.storage.node.layout_builder__layout
-  - field.storage.node.layout_builder__translation
   - core.date_format.html_month
   - core.date_format.html_time
   - core.date_format.html_week
@@ -129,6 +128,7 @@ required:
   - tour.tour.views-ui
   - core.base_field_override.user.user.changed
   - core.base_field_override.user.user.path
+  - core.base_field_override.user.user.metatag
   - language.entity.en
   - workflows.workflow.editorial
   - language.content_settings.path_alias.path_alias
@@ -145,7 +145,6 @@ required:
   - core.entity_form_display.contact_message.personal.default
   - pathauto.pattern.media
   - pathauto.pattern.node
-  - pathauto.pattern.taxonomy
   - pathauto.pattern.user
   - rdf.mapping.user.user
   - shortcut.set.default
@@ -173,4 +172,3 @@ required:
   - block.block.seven_primary_local_tasks
   - block.block.seven_secondary_local_tasks
   - contact.form.personal
-  - field.field.node.article.field_attachment

@@ -5,6 +5,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_attachment
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - node.type.article
@@ -42,7 +43,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    label: above
+    label: visually_hidden
   links:
     weight: 3
     region: content
@@ -50,4 +51,5 @@ content:
     third_party_settings: {  }
 hidden:
   comment: true
+  field_attachment: true
   langcode: true

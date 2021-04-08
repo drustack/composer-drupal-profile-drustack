@@ -16,3 +16,4 @@ dependencies:
   - 'drupal:user'
   - 'drustack_core:drustack_core'
   - 'scheduler:scheduler'
+  - 'xmlsitemap:xmlsitemap'
