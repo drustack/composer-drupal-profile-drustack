@@ -57,6 +57,7 @@ required:
   - file_mdm_font.file_metadata_plugin.font
   - image_effects.settings
   - sophron.settings
+  - bartik.settings
   - field.storage.block_content.body
   - field.storage.comment.comment_body
   - field.storage.node.body
@@ -137,3 +138,35 @@ required:
   - language.content_settings.content_moderation_state.content_moderation_state
   - language.content_settings.shortcut.default
   - core.entity_form_display.user.user.register
+  - core.entity_form_display.aggregator_feed.aggregator_feed.default
+  - core.entity_form_display.contact_message.personal.default
+  - pathauto.pattern.media
+  - pathauto.pattern.node
+  - pathauto.pattern.taxonomy
+  - pathauto.pattern.user
+  - rdf.mapping.user.user
+  - shortcut.set.default
+  - system.menu.account
+  - system.menu.admin
+  - system.menu.footer
+  - system.menu.main
+  - system.menu.tools
+  - block.block.bartik_branding
+  - block.block.bartik_breadcrumbs
+  - block.block.bartik_content
+  - block.block.bartik_help
+  - block.block.bartik_local_actions
+  - block.block.bartik_local_tasks
+  - block.block.bartik_messages
+  - block.block.bartik_page_title
+  - block.block.bartik_powered
+  - block.block.bartik_search
+  - block.block.seven_breadcrumbs
+  - block.block.seven_content
+  - block.block.seven_help
+  - block.block.seven_local_actions
+  - block.block.seven_messages
+  - block.block.seven_page_title
+  - block.block.seven_primary_local_tasks
+  - block.block.seven_secondary_local_tasks
+  - contact.form.personal

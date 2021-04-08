@@ -23,6 +23,7 @@ dependencies:
   - 'drupal:file'
   - 'drupal:filter'
   - 'drupal:hal'
+  - 'drupal:help'
   - 'drupal:image'
   - 'drupal:jsonapi'
   - 'drupal:language'
