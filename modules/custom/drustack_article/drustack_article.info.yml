@@ -4,12 +4,15 @@ type: module
 core_version_requirement: '^8.9 || ^9'
 package: DruStack
 dependencies:
+  - 'captcha:captcha'
   - 'drupal:comment'
   - 'drupal:content_translation'
   - 'drupal:field'
   - 'drupal:file'
   - 'drupal:image'
   - 'drupal:language'
+  - 'drupal:layout_discovery'
+  - 'drupal:media_library'
   - 'drupal:node'
   - 'drupal:path'
   - 'drupal:rdf'

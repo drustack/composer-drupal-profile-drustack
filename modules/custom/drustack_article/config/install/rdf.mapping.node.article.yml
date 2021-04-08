@@ -33,7 +33,6 @@ fieldMappings:
   comment:
     properties:
       - 'schema:comment'
-    mapping_type: rel
   comment_count:
     properties:
       - 'schema:interactionCount'

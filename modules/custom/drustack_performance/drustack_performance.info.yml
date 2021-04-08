@@ -1,0 +1,11 @@
+name: 'DruStack Performance'
+description: 'High performance environment for DruStack'
+type: module
+core_version_requirement: '^8.9 || ^9'
+package: DruStack
+dependencies:
+  - 'advagg:advagg'
+  - 'advagg:advagg_css_minify'
+  - 'advagg:advagg_js_minify'
+  - 'advagg:advagg_mod'
+  - 'advagg:advagg_validator'
