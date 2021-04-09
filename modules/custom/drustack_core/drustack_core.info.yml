@@ -53,6 +53,7 @@ dependencies:
   - 'drupal:views_ui'
   - 'drupal:workflows'
   - 'embed:embed'
+  - 'entity_clone:entity_clone'
   - 'features:features'
   - 'file_mdm:file_mdm'
   - 'file_mdm:file_mdm_exif'
