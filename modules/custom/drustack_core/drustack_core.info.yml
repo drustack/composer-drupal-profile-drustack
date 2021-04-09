@@ -1,8 +1,8 @@
+type: module
+package: DruStack
 name: 'DruStack Core'
 description: 'Provides core components required by other features.'
-type: module
 core_version_requirement: '^8.9 || ^9'
-package: DruStack
 dependencies:
   - 'admin_toolbar:admin_toolbar_tools'
   - 'coffee:coffee'

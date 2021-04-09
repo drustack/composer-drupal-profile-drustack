@@ -1,0 +1,4 @@
+bundle: drustack
+excluded:
+  - webform.settings
+required: true

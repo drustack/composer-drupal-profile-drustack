@@ -1,7 +1,7 @@
 type: module
+package: DruStack
 name: 'DruStack Paragraphs'
 description: 'Provides the tools to take control of your paragraphs.'
-package: DruStack
 core_version_requirement: '^8.9 || ^9'
 dependencies:
   - 'drupal:block'

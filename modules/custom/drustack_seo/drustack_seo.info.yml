@@ -1,8 +1,8 @@
+type: module
+package: DruStack
 name: 'DruStack SEO'
 description: 'DruStack SEO management'
-type: module
 core_version_requirement: '^8.9 || ^9'
-package: DruStack
 dependencies:
   - 'captcha:captcha'
   - 'drupal:language'
