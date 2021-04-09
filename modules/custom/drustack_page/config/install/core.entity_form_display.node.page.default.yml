@@ -3,8 +3,11 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_attachment
+    - field.field.node.page.field_tags
     - node.type.page
   module:
+    - media_library
     - path
     - scheduler
     - text
@@ -15,7 +18,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 31
+    weight: 2
     region: content
     settings:
       rows: 9
@@ -25,20 +28,42 @@ content:
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 10
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_attachment:
+    weight: 4
+    settings:
+      media_types:
+        - document
+        - audio
+        - image
+        - video
+        - remote_video
+    third_party_settings: {  }
+    type: media_library_widget
+    region: content
+  field_tags:
+    weight: 3
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete_tags
+    region: content
   langcode:
     type: language_select
-    weight: 2
+    weight: 0
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 13
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -46,17 +71,17 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 15
+    weight: 7
     region: content
     third_party_settings: {  }
   publish_on:
     type: datetime_timestamp_no_default
-    weight: 30
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
   scheduler_settings:
-    weight: 20
+    weight: 9
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -64,29 +89,29 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 120
+    weight: 12
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 16
+    weight: 8
     region: content
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: -5
+    weight: 1
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   translation:
-    weight: 10
+    weight: 15
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   uid:
     type: entity_reference_autocomplete
     weight: 5
@@ -99,12 +124,12 @@ content:
     third_party_settings: {  }
   unpublish_on:
     type: datetime_timestamp_no_default
-    weight: 30
+    weight: 11
     region: content
     settings: {  }
     third_party_settings: {  }
   url_redirects:
-    weight: 50
+    weight: 14
     region: content
     settings: {  }
     third_party_settings: {  }

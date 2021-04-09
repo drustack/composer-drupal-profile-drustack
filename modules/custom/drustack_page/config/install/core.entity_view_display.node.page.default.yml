@@ -3,6 +3,8 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_attachment
+    - field.field.node.page.field_tags
     - node.type.page
   module:
     - text
@@ -13,14 +15,31 @@ bundle: page
 mode: default
 content:
   body:
-    label: hidden
+    label: visually_hidden
     type: text_default
-    weight: 100
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_attachment:
+    weight: 3
+    label: visually_hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_tags:
+    weight: 2
+    label: visually_hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
   links:
-    weight: 101
+    weight: 1
     region: content
     settings: {  }
     third_party_settings: {  }
