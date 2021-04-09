@@ -6,6 +6,8 @@ dependencies:
     - field.field.node.page.body
     - field.field.node.page.field_attachment
     - field.field.node.page.field_tags
+    - field.field.node.page.layout_builder__layout
+    - field.field.node.page.layout_builder__translation
     - node.type.page
   module:
     - text
@@ -32,3 +34,5 @@ hidden:
   field_attachment: true
   field_tags: true
   langcode: true
+  layout_builder__layout: true
+  layout_builder__translation: true
