@@ -26,7 +26,7 @@ function drustack_install_tasks($install_state) {
     'drustack_performance',
     'drustack_article',
     'drustack_page',
-#    'drustack_blog',
+    'drustack_blog',
 #    'drustack_paragraphs',
 #    'drustack_webform',
   ];
