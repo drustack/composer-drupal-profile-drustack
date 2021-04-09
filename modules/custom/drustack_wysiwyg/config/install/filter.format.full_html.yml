@@ -1,6 +1,8 @@
 langcode: en
 status: true
 dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
   module:
     - editor
     - media
@@ -38,6 +40,6 @@ filters:
     status: true
     weight: 40
     settings:
-      default_view_mode: default
+      default_view_mode: media_library
       allowed_media_types: {  }
       allowed_view_modes: {  }

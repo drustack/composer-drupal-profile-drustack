@@ -16,6 +16,7 @@ settings:
           items:
             - Bold
             - Italic
+            - Underline
             - Strike
             - Superscript
             - Subscript
@@ -31,6 +32,8 @@ settings:
           items:
             - BulletedList
             - NumberedList
+            - Indent
+            - Outdent
         -
           name: Media
           items:
@@ -50,7 +53,6 @@ settings:
           items:
             - Source
             - Maximize
-            - Templates
             - Language
             - ShowBlocks
   plugins:
