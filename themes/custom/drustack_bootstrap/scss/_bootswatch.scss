@@ -1,9 +1,9 @@
-// Flatly 4.3.1
+// Flatly 4.6.0
 // Bootswatch
 
 // Variables ===================================================================
 
-$web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic" !default;
+$web-font-path: "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" !default;
 
 @import url($web-font-path);
 
@@ -16,8 +16,6 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
 }
 
 .bg-dark {
-  background-color: $success !important;
-
   &.navbar-dark .navbar-nav {
     .nav-link:focus,
     .nav-link:hover,
@@ -34,11 +32,9 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
   &-secondary:hover,
   &-warning,
   &-warning:hover {
-    color: #fff;
+    color: $white;
   }
 }
-
-// Typography ==================================================================
 
 // Tables ======================================================================
 
@@ -49,7 +45,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
   &-info,
   &-warning,
   &-danger {
-    color: #fff;
+    color: $white;
   }
 
   &-primary {
@@ -199,8 +195,6 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
   }
 }
 
-// Forms =======================================================================
-
 // Navs ========================================================================
 
 .nav-tabs {
@@ -235,7 +229,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
 .badge {
   &-secondary,
   &-warning {
-    color: #fff;
+    color: $white;
   }
 }
 
@@ -245,7 +239,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
 
   a,
   .alert-link {
-    color: #fff;
+    color: $white;
     text-decoration: underline;
   }
 
@@ -263,21 +257,23 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
 
   &-light {
     &,
-    & a,
-    & .alert-link {
+    a,
+    .alert-link {
       color: $body-color;
     }
   }
 }
 
-// Progress bars ===============================================================
-
 // Containers ==================================================================
-.modal .close {
-  color: $black;
 
-  &:not(:disabled):not(.disabled):hover,
-  &:not(:disabled):not(.disabled):focus {
+.modal,
+.toast {
+  .close {
     color: $black;
+
+    &:not(:disabled):not(.disabled):hover,
+    &:not(:disabled):not(.disabled):focus {
+      color: $black;
+    }
   }
 }

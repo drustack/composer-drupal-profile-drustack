@@ -19,7 +19,7 @@
 }
 
 .comment {
-  margin-bottom: $comment-spacer-y;
+  margin-bottom: ($spacer * 1.5);
   vertical-align: top;
   display: table;
 }
@@ -86,19 +86,19 @@
   right: 100%;
 
   /* LTR */
-  top: $comment-spacer-y;
-  border-top: $comment-spacer-y solid transparent;
-  border-right: $comment-spacer-x solid $border-color;
+  top: ($spacer * 1.5);
+  border-top: ($spacer * 1.5) solid transparent;
+  border-right: ($spacer * 1.5) solid $border-color;
 
   /* LTR */
-  border-bottom: $comment-spacer-y solid transparent;
+  border-bottom: ($spacer * 1.5) solid transparent;
 }
 
 [dir="rtl"] .comment__content::before {
   right: auto;
   left: 100%;
   border-right: none;
-  border-left: $comment-spacer-x solid $border-color;
+  border-left: ($spacer * 1.5) solid $border-color;
 }
 
 .comment__content::after {
@@ -107,12 +107,12 @@
   right: 100%;
 
   /* LTR */
-  top: $comment-spacer-y;
-  border-top: $comment-spacer-y solid transparent;
-  border-right: $comment-spacer-x solid $white;
+  top: ($spacer * 1.5);
+  border-top: ($spacer * 1.5) solid transparent;
+  border-right: ($spacer * 1.5) solid $white;
 
   /* LTR */
-  border-bottom: $comment-spacer-y solid transparent;
+  border-bottom: ($spacer * 1.5) solid transparent;
   margin-right: -1px;
 
   /* LTR */
@@ -122,7 +122,7 @@
   right: auto;
   left: 100%;
   border-right: none;
-  border-left: $comment-spacer-x solid $white;
+  border-left: ($spacer * 1.5) solid $white;
   margin-right: 0;
   margin-left: -1px;
 }
@@ -170,7 +170,7 @@
   padding: 5px 2px 5px 5px;
 
   /* LTR */
-  background: $accent-light;
+  background: $secondary;
 }
 
 [dir="rtl"] .comment--unpublished {
@@ -186,12 +186,12 @@
  */
 
 .unpublished .comment-text .comment-arrow {
-  border-left: 1px solid $accent-light;
-  border-right: 1px solid $accent-light;
+  border-left: 1px solid $secondary;
+  border-right: 1px solid $secondary;
 }
 
 .unpublished {
-  padding: $comment-spacer-y $comment-spacer-x 0;
+  padding: ($spacer * 1.5) ($spacer * 1.5) 0;
 }
 
 .comment-footer {
@@ -200,12 +200,12 @@
 
 .comment--unpublished .comment__text::after,
 .node--unpublished .comment__text::after {
-  border-right-color: $accent-light;
+  border-right-color: $secondary;
 
   /* LTR */
 }
 
 [dir="rtl"] .comment--unpublished .comment__content::after,
 [dir="rtl"] .node--unpublished .comment__content::after {
-  border-left-color: $accent-light;
+  border-left-color: $secondary;
 }
