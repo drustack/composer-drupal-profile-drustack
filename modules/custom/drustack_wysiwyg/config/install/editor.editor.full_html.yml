@@ -53,6 +53,7 @@ settings:
           items:
             - Source
             - Maximize
+            - Templates
             - Language
             - ShowBlocks
   plugins:
