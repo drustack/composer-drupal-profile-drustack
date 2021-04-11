@@ -4,7 +4,7 @@ dependencies:
   config:
     - core.entity_view_mode.media.media_library
     - field.field.media.video.field_media_video_file
-    - image.style.thumbnail
+    - image.style.media_library
     - media.type.video
   module:
     - image
@@ -17,9 +17,9 @@ content:
     type: image
     weight: 0
     region: content
-    label: hidden
+    label: visually_hidden
     settings:
-      image_style: thumbnail
+      image_style: media_library
       image_link: ''
     third_party_settings: {  }
 hidden:

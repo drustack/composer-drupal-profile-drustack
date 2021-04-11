@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies: {  }
+id: blogger
+label: Blogger
+weight: 2
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'create blog content'
+  - 'delete blog revisions'
+  - 'delete own blog content'
+  - 'edit own blog content'
+  - 'revert blog revisions'
+  - 'translate blog node'
+  - 'view blog revisions'

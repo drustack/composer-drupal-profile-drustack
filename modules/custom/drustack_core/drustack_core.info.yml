@@ -1,8 +1,8 @@
+type: module
+package: DruStack
 name: 'DruStack Core'
 description: 'Provides core components required by other features.'
-type: module
 core_version_requirement: '^8.9 || ^9'
-package: DruStack
 dependencies:
   - 'admin_toolbar:admin_toolbar_tools'
   - 'coffee:coffee'
@@ -23,9 +23,11 @@ dependencies:
   - 'drupal:file'
   - 'drupal:filter'
   - 'drupal:hal'
+  - 'drupal:help'
   - 'drupal:image'
   - 'drupal:jsonapi'
   - 'drupal:language'
+  - 'drupal:layout_builder'
   - 'drupal:locale'
   - 'drupal:media'
   - 'drupal:media_library'
@@ -49,7 +51,9 @@ dependencies:
   - 'drupal:user'
   - 'drupal:views'
   - 'drupal:views_ui'
+  - 'drupal:workflows'
   - 'embed:embed'
+  - 'entity_clone:entity_clone'
   - 'features:features'
   - 'file_mdm:file_mdm'
   - 'file_mdm:file_mdm_exif'

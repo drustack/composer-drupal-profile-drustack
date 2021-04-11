@@ -1,8 +1,8 @@
+type: module
+package: DruStack
 name: 'DruStack WYSIWYG'
 description: 'DruStack WYSIWYG management'
-type: module
 core_version_requirement: '^8.9 || ^9'
-package: DruStack
 dependencies:
   - 'ckeditor_templates:ckeditor_templates'
   - 'ckeditor_templates_ui:ckeditor_templates_ui'
@@ -12,5 +12,6 @@ dependencies:
   - 'drupal:embed'
   - 'drupal:filter'
   - 'drupal:media'
+  - 'drustack_core:drustack_core'
   - 'editor_advanced_link:editor_advanced_link'
   - 'php:php'

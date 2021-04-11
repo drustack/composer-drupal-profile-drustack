@@ -20,15 +20,15 @@ function drustack_install_tasks($install_state) {
   $modules = [
     'drustack_core',
     'drustack_devel',
+    'drustack_seo',
+    'drustack_performance',
     'drustack_wysiwyg',
-#    'drustack_layout',
-    'drustack_article',
+    'drustack_paragraphs',
+    'drustack_layout',
     'drustack_page',
-#    'drustack_blog',
-#    'drustack_paragraphs',
-#    'drustack_webform',
-#    'drustack_seo',
-#    'drustack_performance',
+    'drustack_article',
+    'drustack_blog',
+    'drustack_webform',
   ];
   \Drupal::state()->set('drustack_features_exports', $modules);
 

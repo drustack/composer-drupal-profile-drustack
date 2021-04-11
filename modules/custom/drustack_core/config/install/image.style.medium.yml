@@ -2,13 +2,13 @@ langcode: en
 status: true
 dependencies: {  }
 name: medium
-label: 'Medium (220×220)'
+label: 'Medium (720px)'
 effects:
-  bddf0d06-42f9-4c75-a700-a33cafa25ea0:
-    uuid: bddf0d06-42f9-4c75-a700-a33cafa25ea0
+  36149b02-5a61-4f57-bfb5-daf2dfe035c8:
+    uuid: 36149b02-5a61-4f57-bfb5-daf2dfe035c8
     id: image_scale
-    weight: 0
+    weight: 1
     data:
-      width: 220
-      height: 220
+      width: 720
+      height: null
       upscale: false

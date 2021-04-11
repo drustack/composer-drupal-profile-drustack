@@ -12,21 +12,32 @@ content:
     type: timestamp_ago
     weight: 1
     region: content
-    settings: {  }
+    settings:
+      future_format: '@interval hence'
+      past_format: '@interval ago'
+      granularity: 2
     third_party_settings: {  }
     label: inline
   description:
     weight: 3
     region: content
+    settings: {  }
+    third_party_settings: {  }
   feed_icon:
     weight: 5
     region: content
+    settings: {  }
+    third_party_settings: {  }
   image:
     weight: 2
     region: content
+    settings: {  }
+    third_party_settings: {  }
   items:
     weight: 0
     region: content
+    settings: {  }
+    third_party_settings: {  }
   link:
     type: uri_link
     weight: 4

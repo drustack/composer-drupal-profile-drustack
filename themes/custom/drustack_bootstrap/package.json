@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "node-sass": "~5.0",
+        "stylelint": "~13.12",
+        "stylelint-config-standard": "~21.0",
+        "stylelint-csstree-validator": "~1.9",
+        "stylelint-scss": "~3.19"
+    }
+}
