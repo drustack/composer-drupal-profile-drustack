@@ -9,6 +9,14 @@ global-styling:
     - core/jquery
     - core/drupal
 
+popper:
+  version: VERSION
+  js:
+    ../../../../../libraries/popper.js/dist/popper.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+
 bootstrap:
   version: VERSION
   js:
