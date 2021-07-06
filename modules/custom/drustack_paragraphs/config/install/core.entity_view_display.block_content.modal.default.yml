@@ -1,0 +1,52 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.modal
+    - field.field.block_content.modal.field_modal_body
+    - field.field.block_content.modal.field_modal_button
+    - field.field.block_content.modal.field_modal_footer
+    - field.field.block_content.modal.field_modal_title
+  module:
+    - entity_reference_revisions
+    - text
+id: block_content.modal.default
+targetEntityType: block_content
+bundle: modal
+mode: default
+content:
+  field_modal_body:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: visually_hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_modal_button:
+    weight: 0
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_modal_footer:
+    type: entity_reference_revisions_entity_view
+    weight: 3
+    label: visually_hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_modal_title:
+    weight: 1
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.personal
+  module:
+    - aggregator
+id: contact_message.personal.default
+targetEntityType: contact_message
+bundle: personal
+mode: default
+content:
+  message:
+    type: aggregator_xss
+    weight: 0
+    label: above
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

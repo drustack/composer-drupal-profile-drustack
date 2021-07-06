@@ -1,0 +1,5 @@
+bundle: drustack
+excluded:
+  - webform.settings
+  - views.view.webform_submissions
+required: true
