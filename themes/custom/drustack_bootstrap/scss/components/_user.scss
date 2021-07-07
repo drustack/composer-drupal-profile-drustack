@@ -3,6 +3,7 @@
  * Theme styling for user module.
  */
 
+@use "sass:math";
 
 /* Visual styling for the Password strength indicator */
 
@@ -18,7 +19,7 @@
 }
 
 .password-strength__indicator.is-weak {
-  background-color: theme-color("danger");
+    background-color: theme-color("danger");
 }
 
 .password-strength__indicator.is-fair {
@@ -54,7 +55,6 @@
 .confirm-parent,
 .password-parent {
   clear: left;
-
   /* LTR */
   margin: 0;
   max-width: 33em;
@@ -95,29 +95,27 @@ body.path-user {
   .field--label-inline {
     .field__label {
       width: 100px;
-      color: $secondary;
+      color: $secondary
     }
-
     .field__item {
-      padding: $spacer/4 $spacer;
+      padding: math.div($spacer, 4) $spacer;
       border-radius: $spacer;
       background: $gray-200;
       min-width: 250px;
-      margin: $spacer/4 0;
+      margin: math.div($spacer, 4) 0; 
     }
   }
 
   .field--label-above {
     .field__label {
-      color: $secondary;
+      color: $secondary
     }
-
     .field__item {
-      padding: $spacer/4 $spacer;
+      padding: math.div($spacer, 4) $spacer;
       border-radius: $spacer;
       background: $gray-200;
       width: 100%;
-      margin: $spacer/4 0;
+      margin: math.div($spacer, 4) 0; 
     }
   }
 }
