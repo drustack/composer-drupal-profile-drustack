@@ -8,23 +8,20 @@ nav.tabs {
 }
 
 nav.tabs {
-  ul {
-    background: $gray-200;
-    display: flex;
-
-    .nav-item {
-      flex-grow: 1;
-
-      a {
-        color: $gray-800;
-        text-align: center;
-      }
-
-      &.active {
-        a {
-          background: $secondary;
-        }
-      }
-    }
-  }
+	ul {
+		background: $gray-200;
+		display: flex;
+		.nav-item {
+			flex-grow: 1;
+			a {
+				color: $gray-800;
+				text-align: center;
+			}
+			&.active {
+				a {
+					background: $secondary;
+				}
+			}
+		}
+	}
 }
