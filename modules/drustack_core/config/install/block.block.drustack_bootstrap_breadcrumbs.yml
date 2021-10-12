@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
-id: bartik_breadcrumbs
-theme: bartik
+    - drustack_bootstrap
+id: drustack_bootstrap_breadcrumbs
+theme: drustack_bootstrap
 region: breadcrumb
 weight: 0
 provider: null

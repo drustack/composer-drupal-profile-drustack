@@ -95,5 +95,5 @@ install:
   - workflows
 themes:
   - bootstrap_barrio
-  - bartik
+  - drustack_bootstrap
   - claro
