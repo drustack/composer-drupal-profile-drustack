@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
-id: bartik_account_menu
-theme: bartik
+    - drustack_bootstrap
+id: drustack_bootstrap_account_menu
+theme: drustack_bootstrap
 region: secondary_menu
 weight: 0
 provider: null

@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - bartik
-id: bartik_page_title
-theme: bartik
+    - drustack_bootstrap
+id: drustack_bootstrap_page_title
+theme: drustack_bootstrap
 region: content
 weight: -50
 provider: null

@@ -4,9 +4,9 @@ dependencies:
   module:
     - help
   theme:
-    - bartik
-id: bartik_help
-theme: bartik
+    - drustack_bootstrap
+id: drustack_bootstrap_help
+theme: drustack_bootstrap
 region: content
 weight: -30
 provider: null
