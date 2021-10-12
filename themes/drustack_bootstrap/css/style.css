@@ -16232,107 +16232,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.navbar {
-  font-size: 0.9625rem;
-}
-.navbar.bg-dark {
-  background-color: #02b875 !important;
-}
-.navbar.bg-light {
-  background-color: #fff !important;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-.navbar.bg-light.navbar-fixed-top {
-  border-width: 0 0 1px;
-}
-.navbar.bg-light.navbar-fixed-bottom {
-  border-width: 1px 0 0;
-}
-
-p {
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-blockquote {
-  font-style: italic;
-}
-
-footer {
-  font-size: 0.9625rem;
-}
-
-.lead {
-  color: #868e96;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-table,
-.table {
-  font-size: 0.9625rem;
-}
-
-.nav,
-.breadcrumb,
-.pagination {
-  font-size: 0.9625rem;
-}
-
-.dropdown-menu {
-  font-size: 0.9625rem;
-}
-
-.alert {
-  color: #fff;
-  font-size: 0.9625rem;
-}
-.alert,
-.alert p {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-.alert a,
-.alert .alert-link {
-  color: #fff;
-  font-weight: 400;
-  text-decoration: underline;
-}
-.alert-primary {
-  background-color: #4582ec;
-}
-.alert-secondary {
-  background-color: #adb5bd;
-}
-.alert-success {
-  background-color: #02b875;
-}
-.alert-info {
-  background-color: #17a2b8;
-}
-.alert-warning {
-  background-color: #f0ad4e;
-}
-.alert-danger {
-  background-color: #d9534f;
-}
-.alert-light {
-  background-color: #f8f9fa;
-}
-.alert-dark {
-  background-color: #343a40;
-}
-.alert-light,
-.alert-light a,
-.alert-light .alert-link {
-  color: #343a40;
-}
-
-.badge.bg-light {
-  color: #343a40;
-}
-
-.list-group {
-  font-size: 0.9625rem;
-}
-
 /**
  * @file
  * Styles for Bootstrap Barrio affix effect.
@@ -17895,6 +17794,107 @@ body.path-user .field--label-above .field__item {
 .views-ui-display-tab-actions .dropbutton .form-submit:hover,
 .views-ui-display-tab-actions .dropbutton .form-submit:focus {
   color: #4582ec;
+}
+
+.navbar {
+  font-size: 0.9625rem;
+}
+.navbar.bg-dark {
+  background-color: #02b875 !important;
+}
+.navbar.bg-light {
+  background-color: #fff !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navbar.bg-light.navbar-fixed-top {
+  border-width: 0 0 1px;
+}
+.navbar.bg-light.navbar-fixed-bottom {
+  border-width: 1px 0 0;
+}
+
+p {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+footer {
+  font-size: 0.9625rem;
+}
+
+.lead {
+  color: #868e96;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+table,
+.table {
+  font-size: 0.9625rem;
+}
+
+.nav,
+.breadcrumb,
+.pagination {
+  font-size: 0.9625rem;
+}
+
+.dropdown-menu {
+  font-size: 0.9625rem;
+}
+
+.alert {
+  color: #fff;
+  font-size: 0.9625rem;
+}
+.alert,
+.alert p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.alert a,
+.alert .alert-link {
+  color: #fff;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.alert-primary {
+  background-color: #4582ec;
+}
+.alert-secondary {
+  background-color: #adb5bd;
+}
+.alert-success {
+  background-color: #02b875;
+}
+.alert-info {
+  background-color: #17a2b8;
+}
+.alert-warning {
+  background-color: #f0ad4e;
+}
+.alert-danger {
+  background-color: #d9534f;
+}
+.alert-light {
+  background-color: #f8f9fa;
+}
+.alert-dark {
+  background-color: #343a40;
+}
+.alert-light,
+.alert-light a,
+.alert-light .alert-link {
+  color: #343a40;
+}
+
+.badge.bg-light {
+  color: #343a40;
+}
+
+.list-group {
+  font-size: 0.9625rem;
 }
 
 /* GENERAL STYLES

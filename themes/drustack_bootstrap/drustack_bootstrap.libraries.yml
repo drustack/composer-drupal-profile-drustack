@@ -3,8 +3,9 @@ global-styling:
   css:
     theme:
       css/style.css: {}
-  js: 
-    js/global.js: {}
+  js:
+    js/barrio.js: {}
+    js/custom.js: {}
   dependencies:
     - core/jquery
     - core/drupal
@@ -12,7 +13,7 @@ global-styling:
 bootstrap:
   version: VERSION
   js:
-    ../../../../../libraries/bootstrap/dist/js/bootstrap.bundle.min.js: {}
+    ../../../../libraries/bootstrap/dist/js/bootstrap.bundle.min.js: {}
   dependencies:
     - core/jquery
     - core/drupal
@@ -21,6 +22,6 @@ fontawesome:
   version: VERSION
   css:
     theme:
-      ../../../../../libraries/fortawesome--fontawesome-free/css/all.min.css: {}
+      ../../../../libraries/fortawesome--fontawesome-free/css/all.min.css: {}
   js:
-    ../../../../../libraries/fortawesome--fontawesome-free/js/all.min.js: {}
+    ../../../../libraries/fortawesome--fontawesome-free/js/all.min.js: {}
