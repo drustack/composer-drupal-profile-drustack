@@ -1,3 +1,20 @@
+bootstrap:
+  version: VERSION
+  js:
+    ../../../../libraries/bootstrap/dist/js/bootstrap.bundle.min.js: { minified: true }
+  dependencies:
+    - core/popperjs
+    - core/jquery
+    - core/drupal
+
+fontawesome:
+  version: VERSION
+  css:
+    theme:
+      ../../../../libraries/fortawesome--fontawesome-free/css/all.min.css: { minified: true }
+  js:
+    ../../../../libraries/fortawesome--fontawesome-free/js/all.min.js: { minified: true }
+
 global-styling:
   version: VERSION
   css:
@@ -9,19 +26,3 @@ global-styling:
   dependencies:
     - core/jquery
     - core/drupal
-
-bootstrap:
-  version: VERSION
-  js:
-    ../../../../libraries/bootstrap/dist/js/bootstrap.bundle.min.js: {}
-  dependencies:
-    - core/jquery
-    - core/drupal
-
-fontawesome:
-  version: VERSION
-  css:
-    theme:
-      ../../../../libraries/fortawesome--fontawesome-free/css/all.min.css: {}
-  js:
-    ../../../../libraries/fortawesome--fontawesome-free/js/all.min.js: {}
