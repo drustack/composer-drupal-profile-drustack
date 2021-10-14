@@ -58,6 +58,7 @@ dependencies:
   - 'file_mdm:file_mdm'
   - 'file_mdm:file_mdm_exif'
   - 'file_mdm:file_mdm_font'
+  - 'flood_control:flood_control'
   - 'image_effects:image_effects'
   - 'imagemagick:imagemagick'
   - 'libraries:libraries'
