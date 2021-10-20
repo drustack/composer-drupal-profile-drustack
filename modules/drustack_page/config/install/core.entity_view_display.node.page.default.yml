@@ -4,12 +4,14 @@ dependencies:
   config:
     - field.field.node.page.body
     - field.field.node.page.field_attachment
+    - field.field.node.page.field_image
     - field.field.node.page.field_tags
     - field.field.node.page.layout_builder__layout
     - field.field.node.page.layout_builder__translation
     - node.type.page
   module:
     - drustack_layout
+    - image
     - layout_builder
     - layout_builder_restrictions
     - text
@@ -42,7 +44,7 @@ third_party_settings:
                 entity: layout_builder.entity
                 view_mode: view_mode
             additional: {  }
-            weight: 0
+            weight: 1
             third_party_settings:
               block_class:
                 classes: col-12
@@ -64,7 +66,7 @@ third_party_settings:
                 entity: layout_builder.entity
                 view_mode: view_mode
             additional: {  }
-            weight: 1
+            weight: 2
             third_party_settings:
               block_class:
                 classes: col-12
@@ -82,10 +84,28 @@ third_party_settings:
               context_mapping:
                 entity: layout_builder.entity
             additional: {  }
-            weight: 2
+            weight: 3
             third_party_settings:
               block_class:
                 classes: col-12
+          92c7e31c-5c83-4272-8d72-d99a3e68e931:
+            uuid: 92c7e31c-5c83-4272-8d72-d99a3e68e931
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:page:field_image'
+              formatter:
+                label: above
+                settings:
+                  image_style: ''
+                  image_link: ''
+                third_party_settings: {  }
+                type: image
+            additional: {  }
+            weight: 0
+            third_party_settings: {  }
         third_party_settings: {  }
   layout_builder_restrictions:
     allowed_block_categories: {  }
@@ -113,6 +133,15 @@ content:
       view_mode: default
     third_party_settings: {  }
     type: entity_reference_entity_view
+    region: content
+  field_image:
+    weight: 4
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
     region: content
   field_tags:
     weight: 2
