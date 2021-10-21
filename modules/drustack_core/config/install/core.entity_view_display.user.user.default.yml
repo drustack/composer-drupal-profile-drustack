@@ -28,3 +28,4 @@ content:
     label: visually_hidden
 hidden:
   langcode: true
+  search_api_excerpt: true

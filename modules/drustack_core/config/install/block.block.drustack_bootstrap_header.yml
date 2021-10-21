@@ -2,29 +2,29 @@ langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.footer
+    - system.menu.header
   module:
     - menu_block
   theme:
     - drustack_bootstrap
-id: drustack_bootstrap_footer
+id: drustack_bootstrap_header
 theme: drustack_bootstrap
-region: footer_fifth
+region: primary_menu
 weight: 0
 provider: null
-plugin: 'menu_block:footer'
+plugin: 'menu_block:header'
 settings:
-  id: 'menu_block:footer'
-  label: 'Footer menu'
+  id: 'menu_block:header'
+  label: 'Header menu'
   provider: menu_block
   label_display: '0'
   follow: false
   follow_parent: child
   level: 1
   depth: 0
-  expand_all_items: false
-  parent: 'footer:'
-  suggestion: footer
+  expand_all_items: true
+  parent: 'header:'
+  suggestion: header
   label_type: block
   label_link: false
 visibility: {  }

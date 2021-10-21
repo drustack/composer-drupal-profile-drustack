@@ -8,11 +8,11 @@ dependencies:
     - field.field.node.article.field_attachment
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
-    - image.style.large
     - node.type.article
+    - responsive_image.styles.bootstrap
   module:
     - comment
-    - image
+    - responsive_image
     - text
     - user
 id: node.article.default
@@ -46,11 +46,11 @@ content:
     third_party_settings: {  }
     region: content
   field_image:
-    type: image
+    type: responsive_image
     weight: 0
     region: content
     settings:
-      image_style: large
+      responsive_image_style: bootstrap
       image_link: ''
     third_party_settings: {  }
     label: visually_hidden
@@ -69,3 +69,4 @@ content:
     third_party_settings: {  }
 hidden:
   langcode: true
+  search_api_excerpt: true

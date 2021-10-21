@@ -2,29 +2,29 @@ langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.footer
+    - system.menu.header
   module:
     - menu_block
   theme:
     - bootstrap_barrio
-id: bootstrap_barrio_footer
+id: bootstrap_barrio_header
 theme: bootstrap_barrio
-region: footer_fifth
+region: primary_menu
 weight: 0
 provider: null
-plugin: 'system_menu_block:footer'
+plugin: 'menu_block:header'
 settings:
-  id: 'system_menu_block:footer'
-  label: 'Footer menu'
-  provider: system
+  id: 'menu_block:header'
+  label: 'Header menu'
+  provider: menu_block
   label_display: '0'
-  follow: 0
+  follow: false
   follow_parent: child
   level: 1
   depth: 0
-  expand_all_items: false
-  parent: 'footer:'
-  suggestion: footer
+  expand_all_items: true
+  parent: 'header:'
+  suggestion: header
   label_type: block
   label_link: false
 visibility: {  }
