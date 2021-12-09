@@ -73,7 +73,8 @@ install:
   - responsive_image
   - rest
   - scheduler
-  - search
+  - search_api
+  - search_api_db
   - serialization
   - settings_tray
   - shortcut

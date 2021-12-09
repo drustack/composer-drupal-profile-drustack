@@ -9,7 +9,7 @@ id: node.blog
 targetEntityType: node
 bundle: blog
 types:
-  - 'schema:Blog'
+  - 'schema:BlogPosting'
 fieldMappings:
   title:
     properties:

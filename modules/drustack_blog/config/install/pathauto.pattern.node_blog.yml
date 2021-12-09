@@ -10,12 +10,12 @@ pattern: 'blog/[node:author:account-name]/[node:source:title]'
 selection_criteria:
   7cc35b84-e1c2-4cf9-bb98-60a3a238d41f:
     id: node_type
-    bundles:
-      blog: blog
     negate: false
+    uuid: 7cc35b84-e1c2-4cf9-bb98-60a3a238d41f
     context_mapping:
       node: node
-    uuid: 7cc35b84-e1c2-4cf9-bb98-60a3a238d41f
+    bundles:
+      blog: blog
 selection_logic: and
 weight: -5
 relationships: {  }

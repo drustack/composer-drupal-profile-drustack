@@ -1,6 +1,18 @@
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.restricted_html
+  module:
+    - captcha
+    - comment
+    - contact
+    - filter
+    - media
+    - shortcut
+    - sitemap
+    - system
 id: authenticated
 label: 'Authenticated user'
 weight: 1
@@ -16,10 +28,8 @@ permissions:
   - 'cancel account'
   - 'edit own comments'
   - 'post comments'
-  - 'search content'
   - 'skip CAPTCHA'
   - 'skip comment approval'
-  - 'use advanced search'
   - 'use text format basic_html'
   - 'use text format restricted_html'
   - 'view media'

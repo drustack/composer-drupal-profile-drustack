@@ -46,6 +46,7 @@ content:
   field_attachment:
     type: media_library_widget
     weight: 5
+    region: content
     settings:
       media_types:
         - document
@@ -54,7 +55,6 @@ content:
         - video
         - remote_video
     third_party_settings: {  }
-    region: content
   field_image:
     type: image_image
     weight: 2
@@ -88,10 +88,10 @@ content:
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 8
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   publish_on:
     type: datetime_timestamp_no_default
@@ -106,17 +106,17 @@ content:
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 13
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 9
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield
