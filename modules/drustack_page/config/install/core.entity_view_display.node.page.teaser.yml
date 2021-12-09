@@ -21,35 +21,35 @@ bundle: page
 mode: teaser
 content:
   body:
-    label: visually_hidden
     type: text_summary_or_trimmed
-    weight: 1
-    region: content
+    label: visually_hidden
     settings:
       trim_length: 600
     third_party_settings: {  }
+    weight: 1
+    region: content
   field_image:
     type: responsive_image
-    weight: 0
-    region: content
     label: visually_hidden
     settings:
       responsive_image_style: bootstrap
       image_link: content
     third_party_settings: {  }
+    weight: 0
+    region: content
   field_tags:
     type: entity_reference_label
-    weight: 2
-    region: content
     label: visually_hidden
     settings:
       link: true
     third_party_settings: {  }
-  links:
-    weight: 3
+    weight: 2
     region: content
+  links:
     settings: {  }
     third_party_settings: {  }
+    weight: 3
+    region: content
 hidden:
   field_attachment: true
   langcode: true

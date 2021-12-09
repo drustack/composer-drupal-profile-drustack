@@ -16,13 +16,13 @@ plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
   label: 'Footer menu'
-  provider: system
   label_display: '0'
-  follow: 0
-  follow_parent: child
+  provider: system
   level: 1
   depth: 0
   expand_all_items: false
+  follow: 0
+  follow_parent: child
   parent: 'footer:'
   suggestion: footer
   label_type: block

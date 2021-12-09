@@ -1,6 +1,12 @@
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - node.type.blog
+  module:
+    - content_translation
+    - node
+    - toolbar
 id: blogger
 label: Blogger
 weight: 2

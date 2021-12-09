@@ -18,43 +18,43 @@ bundle: blog
 mode: default
 content:
   body:
-    label: visually_hidden
     type: text_default
-    weight: 0
+    label: visually_hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
     region: content
   comment:
-    weight: 4
+    type: comment_default
     label: above
     settings:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
-    type: comment_default
+    weight: 4
     region: content
   field_attachment:
-    weight: 3
+    type: entity_reference_entity_view
     label: visually_hidden
     settings:
-      link: true
       view_mode: default
+      link: true
     third_party_settings: {  }
-    type: entity_reference_entity_view
+    weight: 3
     region: content
   field_tags:
-    weight: 2
+    type: entity_reference_label
     label: visually_hidden
     settings:
       link: true
     third_party_settings: {  }
-    type: entity_reference_label
+    weight: 2
     region: content
   links:
-    weight: 1
-    region: content
     settings: {  }
     third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
   langcode: true
   search_api_excerpt: true
