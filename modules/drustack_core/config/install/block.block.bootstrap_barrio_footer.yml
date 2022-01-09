@@ -18,11 +18,11 @@ settings:
   label: 'Footer menu'
   label_display: '0'
   provider: system
+  follow: 0
+  follow_parent: child
   level: 1
   depth: 0
   expand_all_items: false
-  follow: 0
-  follow_parent: child
   parent: 'footer:'
   suggestion: footer
   label_type: block

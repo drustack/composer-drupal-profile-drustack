@@ -7,9 +7,6 @@ dependencies:
     - media.type.image
     - media.type.remote_video
     - media.type.video
-    - node.type.article
-    - node.type.page
-    - node.type.webform
     - taxonomy.vocabulary.tags
   module:
     - content_translation
@@ -30,7 +27,6 @@ dependencies:
     - taxonomy
     - toolbar
     - tour
-    - webform_node
 id: power
 label: 'Power user'
 weight: 9
@@ -55,42 +51,25 @@ permissions:
   - 'clone menu_link_content entity'
   - 'clone node entity'
   - 'clone taxonomy_term entity'
-  - 'create article content'
   - 'create audio media'
   - 'create content translations'
   - 'create image media'
   - 'create media'
-  - 'create page content'
   - 'create remote_video media'
   - 'create terms in tags'
   - 'create url aliases'
   - 'create video media'
-  - 'create webform content'
-  - 'delete article revisions'
   - 'delete media'
-  - 'delete own article content'
   - 'delete own audio media'
   - 'delete own image media'
-  - 'delete own page content'
   - 'delete own remote_video media'
   - 'delete own video media'
-  - 'delete own webform content'
-  - 'delete page revisions'
-  - 'delete webform revisions'
-  - 'delete webform submissions own node'
-  - 'edit own article content'
   - 'edit own audio media'
   - 'edit own image media'
-  - 'edit own page content'
   - 'edit own remote_video media'
   - 'edit own video media'
-  - 'edit own webform content'
   - 'edit terms in tags'
-  - 'edit webform submissions own node'
   - 'notify of path changes'
-  - 'revert article revisions'
-  - 'revert page revisions'
-  - 'revert webform revisions'
   - 'schedule publishing of nodes'
   - 'translate any entity'
   - 'translate interface'
@@ -99,13 +78,9 @@ permissions:
   - 'use text format full_html'
   - 'view all media revisions'
   - 'view all revisions'
-  - 'view article revisions'
   - 'view media'
   - 'view own unpublished content'
   - 'view own unpublished media'
-  - 'view page revisions'
   - 'view post access counter'
   - 'view scheduled content'
   - 'view the administration theme'
-  - 'view webform revisions'
-  - 'view webform submissions own node'
